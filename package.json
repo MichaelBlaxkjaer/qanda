@@ -1,0 +1,19 @@
+{
+  "name": "qanda",
+  "version": "1.0.0",
+  "description": "Questions and Answers MERN stack Mandatory Assignment",
+  "main": "./server/app.js",
+  "scripts": {
+    "start": "cd server && node app.js",
+    "dev": "cd client && npm start",
+    "test": "cd client && npm test",
+    "preinstall": "cd server && npm install",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build"
+  },
+  "author": "Michael Blaxkjær Jensen",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1"
+  }
+}
